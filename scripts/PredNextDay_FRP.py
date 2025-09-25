@@ -80,7 +80,7 @@ print("R² Score:", r2_score(y_test, y_pred))
 importances = model.feature_importances_
 labels = ["NosQuakes", "MeanMag", "SO2", "FRP"]
 
-# Create figure and axis explicitly
+# Create figure and axis explicitly - greater feature importance, greater role
 fig, ax = plt.subplots(figsize=(6,4))
 ax.bar(labels, importances)
 ax.set_title("Feature Importance for Predicting Next-Day FRP")
