@@ -1,5 +1,6 @@
 
-# Loads daily Fire Radiative Power (FRP), seismic, and SO₂ data (2004-2025), merges them into one dataset, and trains a Random Forest model to predict tomorrow’s FRP using today’s values
+# Loads daily Fire Radiative Power (FRP), seismic, and SO₂ data (2004-2025), merges them into one dataset, and trains a Random Forest model
+# to predict tomorrow’s FRP using today’s values
 # To run in Spyder for example, be in upper directory (volcanic-data-ai-application/) and run via: !python scripts\PredNextDay_FRP.py
 
 # sklearn - machine learning library; ensamble - module which contains the RandomForestRegressor class
@@ -53,7 +54,7 @@ y = df["FRP_tomorrow"].values
 # prints first 5 rows and labels of data
 print(df[["NosQuakes", "MeanMag", "SO2", "FRP", "FRP_tomorrow"]].head())
 
-
+# Configure random forest for predicting next day
 #  take 80% of the data for training (current day, x, and next, y)
 split = int(0.8 * len(X))
 X_train = X[:split]

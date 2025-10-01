@@ -1,4 +1,5 @@
-# Trains neural-network on FRP, seismic, and SO₂ data to detect anomalies, compares them in quiet vs. eruption-precursor periods, based on real eruption start dates, and plots the results with eruption windows highlighted. ✅
+# Trains neural-network on FRP, seismic, and SO₂ data to detect anomalies, compares them in quiet vs. eruption-precursor
+# periods, based on real eruption start dates, and plots the results with eruption windows highlighted
 # To run in Spyder for example, be in upper directory (volcanic-data-ai-application/) and run via: !python scripts\PredNextDay_FRP.py
 
 #tensorflow: a deep learning library; keras: a library within tensorflow with tools to build NNs, with classes imported
