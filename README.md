@@ -2,7 +2,7 @@
 
 This repository contains Python scripts and datasets for analysing volcanic precursor signals and filling gaps in volcanic observation data.  
 It combines machine learning (Random Forest) and deep learning (Neural Networks) approaches using daily Fire Radiative Power (FRP), SO₂, and seismic data from Kilauea volcano (2004–2025).
-
+ 
 You will run 3 programs with different purposes:
 
 1. `scripts/PredNextDay_FRP.py` - To predict the next day's FRP from today's FRP, SO₂, and seismic data
